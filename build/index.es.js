@@ -85,7 +85,7 @@ function __spreadArray(to, from) {
     return to;
 }
 
-// A fair amount of file-types are detectable within this range
+// A fair amount of file-identity are detectable within this range
 var minimumBytes = 4100;
 /**
  * 读取文件中指定范围的二进制数据

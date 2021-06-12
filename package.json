@@ -1,5 +1,5 @@
 {
-  "name": "file-types",
+  "name": "file-identity",
   "version": "0.0.1",
   "description": "The file type is detected by checking the magic number of the buffer.",
   "main": "build/index.js",
@@ -10,11 +10,12 @@
     "build": "rollup -c",
     "test": "tsc -p tsconfig.test.json && nyc --reporter=lcov --reporter=text --reporter=json ava && rm -rf .nyc_output",
     "posttest": "codecov -f coverage/*.json -t 2c8870e8-482e-4625-b441-4664be401e48",
-    "prepublish": "rm -rf build && tsc && npm run build"
+    "prepublish": "rm -rf build && tsc && npm run build",
+    "publish": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/MrLeihe/file-types.git"
+    "url": "git+ssh://git@github.com/MrLeihe/file-identity.git"
   },
   "keywords": [
     "file",
@@ -25,9 +26,9 @@
   "author": "stone",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MrLeihe/file-types/issues"
+    "url": "https://github.com/MrLeihe/file-identity/issues"
   },
-  "homepage": "https://github.com/MrLeihe/file-types#readme",
+  "homepage": "https://github.com/MrLeihe/file-identity#readme",
   "devDependencies": {
     "@types/node": "^15.12.2",
     "ava": "^3.15.0",

@@ -11,7 +11,7 @@ interface FileType {
 
 type Result = FileType | undefined
 
-// A fair amount of file-types are detectable within this range
+// A fair amount of file-identity are detectable within this range
 const minimumBytes: number = 4100
 
 /**
