@@ -9,6 +9,6 @@ test('FT.fromBuffer can detect file type', t => {
   if (fileType) {
     t.is(fileType.ext, 'png')
   } else {
-    t.
+    t.fail('detect file type failed!')
   }
 })

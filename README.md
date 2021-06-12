@@ -1,4 +1,4 @@
-## file-types
+## file-types [![codecov](https://codecov.io/gh/MrLeihe/file-types/branch/main/graph/badge.svg?token=FKA5QY36FS)](https://codecov.io/gh/MrLeihe/file-types)
 
 The file type is detected by checking the magic number of the buffer.
 
