@@ -1,0 +1,24 @@
+# OSX
+.DS_Store
+
+# IDE
+.vscode/
+*.iml
+.idea/
+
+# npm
+node_modules/
+*.log
+*.bak
+
+# test
+/coverage
+.nyc_output
+
+# build
+/temp
+dist
+lib
+es
+types
+build-test

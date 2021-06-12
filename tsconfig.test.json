@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "lib": ["dom", "es5", "es6"],
+    "target": "es2015",
+    "outDir": "build-test",
+    "sourceMap": true
+  },
+  "exclude": ["node_modules"]
+}
