@@ -9,7 +9,6 @@
     "start": "rollup -cw",
     "build": "rollup -c",
     "test": "tsc -p tsconfig.test.json && nyc --reporter=lcov --reporter=text --reporter=json ava && rm -rf .nyc_output",
-    "test2": "ava",
     "posttest": "codecov -f coverage/*.json -t 2c8870e8-482e-4625-b441-4664be401e48",
     "prepublish": "rm -rf build && tsc && npm run build"
   },
